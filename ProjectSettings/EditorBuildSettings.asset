@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tela_Inicial.unity
+    guid: 81adce18927307446bb9300e0eb91b28
+  - enabled: 1
+    path: Assets/Scenes/Levels/level_1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Levels/level_2.unity
+    guid: 96f02f461b37d2d479b107d9440045f2
+  - enabled: 1
+    path: Assets/Scenes/Levels/level_3.unity
+    guid: 9c0efc1d50a170641be9e57d97217c3d
+  - enabled: 1
+    path: Assets/Scenes/Restarts/Restart_lvl_1.unity
+    guid: 7cbd93bd68603ed4fb7a36b87fbb1f5d
+  - enabled: 1
+    path: Assets/Scenes/Restarts/Restart_lvl_2.unity
+    guid: e4686bf5e68bbf44e88c82b521a86aae
+  - enabled: 1
+    path: Assets/Scenes/Restarts/Restart_lvl_3.unity
+    guid: 529dbb13412e1904d8a3c5ec2ea46a3c
+  m_configObjects: {}
