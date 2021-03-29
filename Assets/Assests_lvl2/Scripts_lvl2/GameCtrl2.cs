@@ -19,6 +19,9 @@ public class GameCtrl2 : MonoBehaviour
 
     public GameObject nextLevelPainel;
 
+    public GameObject player;
+    
+
     //Strings nextlevel
     
     
@@ -90,9 +93,12 @@ public class GameCtrl2 : MonoBehaviour
    
     public void NextLevel()
     {
-        if (TotalScore == 15)
+        if (TotalScore == 20)
         {
             nextLevelPainel.SetActive(true);
+            player.SetActive(false);
+            
+            
             Time.timeScale = 0;
 
         }

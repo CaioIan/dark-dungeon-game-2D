@@ -7,13 +7,18 @@ ScriptsOnlyBuild:
     - GameController
     - GameCtrl2
     - GameCtrl_3
+    - GameCtrl_4
     - GunController
     - Player
     - Player_lvl2
     - Player_lvl3
+    - Player_lvl4
+    - SawScript
+    - SawScriptRight
     - SpawnManager
     - SpawnManagerSlime
     - SpawnMngr2
+    - enemy_level4
     - enemy_lvl3
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -24,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -44,8 +50,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -361,6 +369,113 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
+    Assets/Scenes/Levels/level_4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 610}
+    - Class: 114
+      Script: {instanceID: 1494}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 2134}
+    - Class: 114
+      Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2532}
+    - Class: 114
+      Script: {instanceID: 2608}
+    - Class: 114
+      Script: {instanceID: 2698}
+    - Class: 114
+      Script: {instanceID: 2776}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3102}
+    - Class: 114
+      Script: {instanceID: 3216}
+    - Class: 114
+      Script: {instanceID: 3502}
+    - Class: 114
+      Script: {instanceID: 3708}
+    - Class: 114
+      Script: {instanceID: 4138}
+    - Class: 114
+      Script: {instanceID: 4756}
+    - Class: 114
+      Script: {instanceID: 50594}
+    - Class: 114
+      Script: {instanceID: 50960}
+    - Class: 114
+      Script: {instanceID: 85894}
+    - Class: 114
+      Script: {instanceID: 90548}
+    - Class: 114
+      Script: {instanceID: 99950}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
     Assets/Scenes/Restarts/Restart_lvl_1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -526,6 +641,61 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/Restarts/Restart_lvl_4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1494}
+    - Class: 114
+      Script: {instanceID: 2134}
+    - Class: 114
+      Script: {instanceID: 2532}
+    - Class: 114
+      Script: {instanceID: 2698}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 3102}
+    - Class: 114
+      Script: {instanceID: 3216}
+    - Class: 114
+      Script: {instanceID: 4012}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Tela_Inicial.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -618,7 +788,7 @@ ScriptsOnlyBuild:
     className: SpriteSkin
   - hash:
       serializedVersion: 2
-      Hash: be4ff26b0d415143ed1a2bd5c8f9ec24
+      Hash: 4afcac6d8fa2cac6684f12456cbfb6c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameCtrl_3
@@ -1206,7 +1376,7 @@ ScriptsOnlyBuild:
     className: CinemachineIndependentImpulseListener
   - hash:
       serializedVersion: 2
-      Hash: 5a711be0d0f30aff82df200cad023b5d
+      Hash: 22be6c753ee644fae9c11e01d1b07bb8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -1464,17 +1634,61 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 74505a8b226abb2316b9c86f0c9218f8
+      Hash: 6cadc003bccb768c3c34ef32207f3beb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameCtrl2
+  - hash:
+      serializedVersion: 2
+      Hash: 4afcac6d8fa2cac6684f12456cbfb6c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameCtrl_4
+  - hash:
+      serializedVersion: 2
+      Hash: 897a156a284ef020cf775cbd46e8d2d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_lvl4
+  - hash:
+      serializedVersion: 2
+      Hash: d64bb51f26236fa7ab85d3e0cc495280
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemy_level4
+  - hash:
+      serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptRight
+  - hash:
+      serializedVersion: 2
+      Hash: 64d09aae54b593fee24f0199b319e60b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScript
+  - hash:
+      serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptY
+  - hash:
+      serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptDown
   platform: 5
   scenePathNames:
   - Assets/Scenes/Tela_Inicial.unity
   - Assets/Scenes/Levels/level_1.unity
   - Assets/Scenes/Levels/level_2.unity
   - Assets/Scenes/Levels/level_3.unity
+  - Assets/Scenes/Levels/level_4.unity
   - Assets/Scenes/Restarts/Restart_lvl_1.unity
   - Assets/Scenes/Restarts/Restart_lvl_2.unity
   - Assets/Scenes/Restarts/Restart_lvl_3.unity
+  - Assets/Scenes/Restarts/Restart_lvl_4.unity
   playerPath: D:/BuildsUnity/Dungeon.exe

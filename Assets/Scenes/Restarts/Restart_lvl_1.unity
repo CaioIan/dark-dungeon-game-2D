@@ -816,7 +816,8 @@ MonoBehaviour:
   comoJogar: {fileID: 0}
   totalScore: 0
   scoreText: {fileID: 0}
-  level: 
+  nextLevelPainel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!4 &1767002603
 Transform:
   m_ObjectHideFlags: 0

@@ -18,6 +18,7 @@ public class GameCtrl_3 : MonoBehaviour
     public Text scoretext;
 
     public GameObject NextLevelPainel;
+    public GameObject player;
 
     //Strings nextlevel
 
@@ -93,6 +94,7 @@ public class GameCtrl_3 : MonoBehaviour
         if (totalscore == 25)
         {
             NextLevelPainel.SetActive(true);
+            player.SetActive(true);
             Time.timeScale = 0;
 
         }

@@ -2485,7 +2485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 'MATE 15 INIMIGOS DESTA SALA PARA PASSAR DE FASE
+  m_Text: 'MATE 20 INIMIGOS DESTA SALA PARA PASSAR DE FASE
 
 
 '
@@ -3378,8 +3378,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796556956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04, y: -0.014205991, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.02, y: -0.014205991, z: 0}
+  m_LocalScale: {x: 0.6677912, y: 0.6677912, z: 0.6677912}
   m_Children:
   - {fileID: 1698102308}
   m_Father: {fileID: 112628525}
@@ -3978,6 +3978,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1187272923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 304620284978683501, guid: e703fef1a5f0f5346845b4f6b87b69e8, type: 3}
+  m_PrefabInstance: {fileID: 1471375618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1227109942
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,6 +4928,7 @@ MonoBehaviour:
   TotalScore: 0
   ScoreText: {fileID: 1541140522}
   nextLevelPainel: {fileID: 1584917934}
+  player: {fileID: 1187272923}
 --- !u!4 &1767002603
 Transform:
   m_ObjectHideFlags: 0
@@ -5233,7 +5239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.039215688, g: 0, b: 0.121568635, a: 1}
+  m_Color: {r: 0.039215688, g: 0, b: 0.121568635, a: 0.9647059}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

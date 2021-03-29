@@ -56,20 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets_lvl3\Scripts\GameCtrl_3.cs" />
     <Compile Include="Assets\Assests_lvl2\Scripts_lvl2\EnemyScripts\SpawnMngr2.cs" />
     <Compile Include="Assets\Assets_lvl1\Scripts\Enemy\Enemy_lvl1.cs" />
+    <Compile Include="Assets\Assets_lvl3\Scripts\enemy_lvl3.cs" />
     <Compile Include="Assets\Assets_lvl1\Scripts\Enemy\SpawnManager.cs" />
     <Compile Include="Assets\Assests_lvl2\Scripts_lvl2\Player_lvl2.cs" />
     <Compile Include="Assets\Assets_lvl1\Scripts\Enemy\SpawnManagerSlime.cs" />
     <Compile Include="Assets\Assets_lvl1\Scripts\Player.cs" />
     <Compile Include="Assets\Assests_lvl2\Scripts_lvl2\EnemyScripts\Enemy_lvl2.cs" />
+    <Compile Include="Assets\Assets_lvl3\Scripts\Player_lvl3.cs" />
     <Compile Include="Assets\Assets_lvl1\Scripts\GameController.cs" />
     <Compile Include="Assets\GeralScripts\GunController.cs" />
     <Compile Include="Assets\GeralScripts\Bullet.cs" />
     <Compile Include="Assets\Assests_lvl2\Scripts_lvl2\GameCtrl2.cs" />
-    <Compile Include="Assets\Assets_lvl3\Scripts\GameCtrl_3.cs" />
-    <Compile Include="Assets\Assets_lvl3\Scripts\Player_lvl3.cs" />
-    <Compile Include="Assets\Assets_lvl3\Scripts\enemy_lvl3.cs" />
+    <Compile Include="Assets\Assets_lvl4\Scripts\GameCtrl_4.cs" />
+    <Compile Include="Assets\Assets_lvl4\Scripts\Player_lvl4.cs" />
+    <Compile Include="Assets\Assets_lvl4\Scripts\Enemy\enemy_level4.cs" />
+    <Compile Include="Assets\GeralScripts\SawScriptRight.cs" />
+    <Compile Include="Assets\GeralScripts\SawScript.cs" />
+    <Compile Include="Assets\GeralScripts\SawScriptY.cs" />
+    <Compile Include="Assets\GeralScripts\SawScriptDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

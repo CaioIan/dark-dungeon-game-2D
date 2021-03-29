@@ -22,8 +22,8 @@ public class GameController : MonoBehaviour
 
 
     public GameObject nextLevelPainel;
-
-
+    public GameObject player;
+   
     // Start is called before the first frame update
 
     void Start()
@@ -95,8 +95,10 @@ public class GameController : MonoBehaviour
     {
         if (totalScore == 10)
         {
-
+            player.SetActive(false);
             
+            
+                
             nextLevelPainel.SetActive(true);
             Time.timeScale = 0;
 
