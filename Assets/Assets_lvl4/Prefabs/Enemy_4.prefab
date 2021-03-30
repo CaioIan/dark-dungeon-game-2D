@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7859229303363300977}
   - component: {fileID: 7859229303363300981}
   - component: {fileID: 7859229303363300978}
-  - component: {fileID: 8397317835827856634}
+  - component: {fileID: -2024860062263469461}
   m_Layer: 0
   m_Name: Enemy_4
   m_TagString: Enemy
@@ -152,7 +152,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8397317835827856634
+--- !u!114 &-2024860062263469461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c5801fb0163be4e9a360c255871ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4.3
+  speed: 4
   score: 1

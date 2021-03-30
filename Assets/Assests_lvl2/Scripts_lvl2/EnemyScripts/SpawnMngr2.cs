@@ -18,7 +18,7 @@ public class SpawnMngr2 : MonoBehaviour
         //Primeiro float Tempo que vai demorar pra nascer o bicho no inicio do jogo
         //Segundo float de quanto em quanto tempo vai demorar pra nascer
 
-        InvokeRepeating("SpawnEnemies", 6.5f, 6f);
+        InvokeRepeating("SpawnEnemies", 6.5f, 3f);
 
         instant = this;
 

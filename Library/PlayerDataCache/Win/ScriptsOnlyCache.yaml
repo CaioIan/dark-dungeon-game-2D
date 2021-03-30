@@ -4,22 +4,28 @@ ScriptsOnlyBuild:
     - Bullet
     - Enemy_lvl1
     - Enemy_lvl2
+    - Fire
+    - FireManager
     - GameController
     - GameCtrl2
     - GameCtrl_3
     - GameCtrl_4
+    - Game_ctrl_5
     - GunController
     - Player
     - Player_lvl2
     - Player_lvl3
     - Player_lvl4
+    - Player_lvl_5
     - SawScript
     - SawScriptRight
     - SpawnManager
     - SpawnManagerSlime
+    - SpawnMngr
     - SpawnMngr2
     - enemy_level4
     - enemy_lvl3
+    - enemy_lvl5
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
@@ -34,7 +40,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -50,10 +55,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -110,31 +113,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3502}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,37 +210,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 3502}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 3708}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 5300}
+      Script: {instanceID: 5326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,35 +315,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3502}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 3708}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,43 +414,150 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 1722}
+      Script: {instanceID: 1904}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3502}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 3708}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 3956}
     - Class: 114
-      Script: {instanceID: 50594}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 50960}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 85894}
+      Script: {instanceID: 4494}
     - Class: 114
-      Script: {instanceID: 90548}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 99950}
+      Script: {instanceID: 5232}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Levels/level_5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 610}
+    - Class: 114
+      Script: {instanceID: 1494}
+    - Class: 114
+      Script: {instanceID: 2136}
+    - Class: 114
+      Script: {instanceID: 2484}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2700}
+    - Class: 114
+      Script: {instanceID: 2778}
+    - Class: 114
+      Script: {instanceID: 2826}
+    - Class: 114
+      Script: {instanceID: 2882}
+    - Class: 114
+      Script: {instanceID: 3108}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3390}
+    - Class: 114
+      Script: {instanceID: 3512}
+    - Class: 114
+      Script: {instanceID: 3548}
+    - Class: 114
+      Script: {instanceID: 3680}
+    - Class: 114
+      Script: {instanceID: 3722}
+    - Class: 114
+      Script: {instanceID: 4158}
+    - Class: 114
+      Script: {instanceID: 4494}
+    - Class: 114
+      Script: {instanceID: 4778}
+    - Class: 114
+      Script: {instanceID: 4942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -502,19 +612,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -557,19 +667,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -612,19 +722,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -667,19 +777,74 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Restarts/Restart_lvl_5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1494}
+    - Class: 114
+      Script: {instanceID: 2136}
+    - Class: 114
+      Script: {instanceID: 2534}
+    - Class: 114
+      Script: {instanceID: 2700}
+    - Class: 114
+      Script: {instanceID: 2882}
+    - Class: 114
+      Script: {instanceID: 3108}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 4032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -720,19 +885,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4032}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -882,6 +1047,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: 
     className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: d64bb51f26236fa7ab85d3e0cc495280
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemy_level4
   - hash:
       serializedVersion: 2
       Hash: 6225eb0973ab0af667bc5f9d1b1b18de
@@ -1052,6 +1223,12 @@ ScriptsOnlyBuild:
     className: CinemachineHardLookAt
   - hash:
       serializedVersion: 2
+      Hash: 897a156a284ef020cf775cbd46e8d2d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_lvl_5
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -1110,6 +1287,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptDown
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -1202,6 +1385,12 @@ ScriptsOnlyBuild:
     className: Player_lvl2
   - hash:
       serializedVersion: 2
+      Hash: 2764124e42c40670baa4f5838a29c8be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Game_ctrl_5
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1212,6 +1401,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: 897a156a284ef020cf775cbd46e8d2d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_lvl4
   - hash:
       serializedVersion: 2
       Hash: c440431a02cf8412643ff43ebc710b9d
@@ -1230,6 +1425,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: e84ea3c07d63751d7b65ae3194f1bf90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireManager
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1266,6 +1467,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: e693421d1b5a30cb92dcaab52efb0c13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Fire
   - hash:
       serializedVersion: 2
       Hash: 7fcfe18774fa4f980b1671ea7382aca3
@@ -1346,10 +1553,22 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptY
+  - hash:
+      serializedVersion: 2
       Hash: eeb356fa33eec10332ebc7e468fecb95
     assemblyName: Cinemachine.dll
     namespaceName: 
     className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 02a52d3d36ba0baf1ff012059af4f236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScriptRight
   - hash:
       serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
@@ -1374,6 +1593,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4afcac6d8fa2cac6684f12456cbfb6c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameCtrl_4
   - hash:
       serializedVersion: 2
       Hash: 22be6c753ee644fae9c11e01d1b07bb8
@@ -1502,6 +1727,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: c440431a02cf8412643ff43ebc710b9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnMngr
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -1574,6 +1805,12 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
+      Hash: d64bb51f26236fa7ab85d3e0cc495280
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemy_lvl5
+  - hash:
+      serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -1590,6 +1827,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 64d09aae54b593fee24f0199b319e60b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1638,48 +1881,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameCtrl2
-  - hash:
-      serializedVersion: 2
-      Hash: 4afcac6d8fa2cac6684f12456cbfb6c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameCtrl_4
-  - hash:
-      serializedVersion: 2
-      Hash: 897a156a284ef020cf775cbd46e8d2d1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player_lvl4
-  - hash:
-      serializedVersion: 2
-      Hash: d64bb51f26236fa7ab85d3e0cc495280
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: enemy_level4
-  - hash:
-      serializedVersion: 2
-      Hash: 02a52d3d36ba0baf1ff012059af4f236
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SawScriptRight
-  - hash:
-      serializedVersion: 2
-      Hash: 64d09aae54b593fee24f0199b319e60b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SawScript
-  - hash:
-      serializedVersion: 2
-      Hash: 02a52d3d36ba0baf1ff012059af4f236
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SawScriptY
-  - hash:
-      serializedVersion: 2
-      Hash: 02a52d3d36ba0baf1ff012059af4f236
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SawScriptDown
   platform: 5
   scenePathNames:
   - Assets/Scenes/Tela_Inicial.unity
@@ -1687,8 +1888,10 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Levels/level_2.unity
   - Assets/Scenes/Levels/level_3.unity
   - Assets/Scenes/Levels/level_4.unity
+  - Assets/Scenes/Levels/level_5.unity
   - Assets/Scenes/Restarts/Restart_lvl_1.unity
   - Assets/Scenes/Restarts/Restart_lvl_2.unity
   - Assets/Scenes/Restarts/Restart_lvl_3.unity
   - Assets/Scenes/Restarts/Restart_lvl_4.unity
+  - Assets/Scenes/Restarts/Restart_lvl_5.unity
   playerPath: D:/BuildsUnity/Dungeon.exe
